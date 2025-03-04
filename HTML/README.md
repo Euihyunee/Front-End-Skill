@@ -1,32 +1,15 @@
+<div align="center">
+
 ## HTML 학습
+
+</div>
 
 ### [form.html](https://github.com/Euihyunee/Front-End-Skill/blob/main/HTML/form.html) 설명
 
 - `<form>` 데이터 학습
 - `<table>` 요소 학습 
 
-<style>
-  .img_container_box {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .left-div-example, .right-div-example {
-    flex: 1;
-    min-width: 300px; /* 최소 너비 설정 */
-  }
-  .left-div-example img {
-    width: 100%;
-    height: auto;
-  }
-  @media (max-width: 768px) {
-    .right-div-example {
-      flex-basis: 100%;
-      order: 2;
-    }
-  }
-</style>
-
-<div class="img_container_box">
+<div display="flex" class="img_container_box">
 
   <div class="left-div-example">
     <img src="https://www.w3schools.com/html/img_sem_elements.gif" alt="html 레이아웃">
