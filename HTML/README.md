@@ -1,3 +1,10 @@
+## HTML 학습
+
+### [form.html](https://github.com/Euihyunee/Front-End-Skill/blob/main/HTML/form.html) 설명
+
+- `<form>` 데이터 학습
+- `<table>` 요소 학습 
+
 <style>
   .img_container_box {
     display: flex;
@@ -18,13 +25,6 @@
     }
   }
 </style>
-
-## HTML 학습
-
-### [form.html](https://github.com/Euihyunee/Front-End-Skill/blob/main/HTML/form.html) 설명
-
-- `<form>` 데이터 학습
-- `<table>` 요소 학습 
 
 <div class="img_container_box">
 
