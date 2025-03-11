@@ -109,7 +109,7 @@ button{border: none;outline: none;background-color: transparent;}
   height: 100%;
   background-image: url(./images/check_circle_24dp.svg);
   background-position: center;
-  filter: brightness(0) invert(1); /* 필터는 이 요소에만 적용됨 */
+  filter: brightness(0) invert(1); 
 }
 
 #user-menu > div > div.login> a{
@@ -132,7 +132,6 @@ button{border: none;outline: none;background-color: transparent;}
 #visual>div>ul{
   display: flex;
   width: calc(1920px*3);
-  /* transform: translateX(-1920px); */
   animation-name: slide;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
