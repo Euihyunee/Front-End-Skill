@@ -15,10 +15,20 @@ $(function() {
     $("#id-msg").show().text("아이디는 영문자/숫자 조합 8글자 이상");
   });
   // document.querySelector("#id").addEventListener("click", function(){});
+  $("#password").click(function(){
+    $("#pw-msg").show().text("아이디는 영문자/숫자 조합 8글자 이상");
+  });
+  // blur 메시지가 입력되지 않았을 때
+  $("#id").blur(function(){
+    let idValue=$(this).val().trim();
+    if(idValue.length==0){
+      $("#id-msg").show().text("필수항목");
+    }
+  });
 });
 
 // 태그에서 이벤트를 적용한 경우
 function pwClicked(){
-  document.querySelector("#pw-msg").style.display = "block";
-  document.querySelector("#pw-msg").innerText = "비��번호는 8~20자, 영문/��자/��수문자 포함";
+  // document.querySelector("#pw-msg").style.display = "block";
+  // document.querySelector("#pw-msg").innerText = "비밀번호는 8~20자, 영문/문자/특수문자 포함";
 }
