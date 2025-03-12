@@ -1,0 +1,67 @@
+/* 기본리셋 */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.flex{display: flex;}
+
+body > div{
+  background-color: #deebf7;
+  border: 1px solid #658db1;
+  padding: 40px;
+
+}
+body > div >form{
+  color: #2b2b2b;
+  width: 420px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ededed;
+  border: 1px solid #d6dee5;
+}
+
+body > div > form > dl{
+  display: flex;
+  margin: 10px 0;
+}
+body > div > form > dl > dt{
+  width: 120px;
+  /* 120px을 고정으로하고 사이즈가 축소되지 않토록 지정 */
+  flex-shrink: 0;
+  font-weight: 700;/* bold */
+  line-height: 26px;
+}
+
+body > div > form > dl > dd{
+  /* width: calc(100% - 120px); */
+  /* 부모의 남은 공간을 자동으로 채움 */
+  flex-grow: 1;
+}
+/* body > div > form > dl.email > dd > div{display: flex;} */
+body > div > form > dl > dd > div > input{
+  height: 26px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px dashed #5b5b5b;
+  outline: none;
+}
+body > div > form > dl > dd > div > input.add2{
+  margin-top: 10px;
+}
+
+body > div > form > dl > dd > p{
+   font-size: 12px;
+   letter-spacing: -1px;
+   color: #777;
+   padding-top: 10px;
+   display: none;
+}
+
+body > div > form > div > button{
+  width: 100%;
+  height: 40px;
+  background-color: #c5e0b4;
+  border: none;
+  color: #3c5b27;
+  font-weight: bold;
+  margin-top: 26px;
+}
